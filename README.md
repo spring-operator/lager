@@ -5,7 +5,7 @@ to provide a more traditional way to perform logging in an erlang application
 that plays nicely with traditional UNIX logging tools like logrotate and
 syslog.
 
-  [Travis-CI](http://travis-ci.org/basho/lager) :: ![Travis-CI](https://secure.travis-ci.org/basho/lager.png)
+  [Travis-CI](https://travis-ci.org/basho/lager) :: ![Travis-CI](https://secure.travis-ci.org/basho/lager.png)
 
 Features
 --------
@@ -189,7 +189,7 @@ for the backend:
 ]}.
 ```
 
-Included is `lager_default_formatter`.  This provides a generic, default formatting for log messages using a structure similar to Erlang's [iolist](http://learnyousomeerlang.com/buckets-of-sockets#io-lists) which we call "semi-iolist":
+Included is `lager_default_formatter`.  This provides a generic, default formatting for log messages using a structure similar to Erlang's [iolist](https://learnyousomeerlang.com/buckets-of-sockets#io-lists) which we call "semi-iolist":
 
 * Any traditional iolist elements in the configuration are printed verbatim.
 * Atoms in the configuration are treated as placeholders for lager metadata and extracted from the log message.
